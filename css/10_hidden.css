@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300..800&display=swap");
+
+.menu0 {  display: none;}
+
+@media screen and (min-width: 1440px) {   
+  .menu1 img {  width: 200px;    text-align: center;    font-size: 11px;    font-weight:700;    }  
+  .menu2 img { width: 200px;    text-align: center;    font-size: 11px;    font-weight:700;  }
+  .menu3 img { width: 200px;    text-align: center;    font-size: 11px;    font-weight:700;  }
+  .menu4 img {  width: 200px;    text-align: center;    font-size: 11px;    font-weight:700; }
+  .menu0 {  gap: 4.5rem;       display: flex;    justify-content: center;    margin-top: 3rem; margin-bottom: 4rem; }
+  .menu1:hover {    content: url(../img/5.png);    width: 200px; margin: 0;  }
+  .menu2:hover {    content: url(../img/6.png);    width: 200px; margin: 0;   }
+  .menu3:hover {    content: url(../img/8.png);    width: 200px; margin: 0;   }
+  .menu4:hover {    content: url(../img/7.png);    width: 200px; margin: 0;
+  }
+    h5 { font-family: "42dot Sans", serif;}
+    h5 {font-size: 20px; margin-left: 1rem;}
+}
+
